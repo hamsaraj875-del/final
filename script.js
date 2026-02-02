@@ -326,7 +326,7 @@ function showSuggestionBox() {
 
   suggestionsBox.innerHTML = `
     <p>💡 Highest energy consuming appliance: 
-      <b>${maxApp}</b> (${maxEnergy.toFixed(2)} Wh)
+      <b>${maxApp}</b> (${maxEnergy.toFixed(2)} Wh).So try to turn it OFF when it is not needed.
     </p>`;
 }
 
@@ -371,4 +371,5 @@ function _clearAll() {
 
 function logout() {
   location.href = 'index.html';
+
 }
